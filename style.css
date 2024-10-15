@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    height: 120px;
+    text-align: center;
+    padding-top: 40px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap :50px;
+    form{
+        border: 2px solid whitesmoke;
+        padding: 25px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap : 35px;
+        
+    }
+    button{
+        width:max-content;
+        padding: 10px 20px;
+        border-radius: 25px;
+        background-color: whitesmoke;
+        color: black;
+        border: none;
+    }
+    button:hover{
+        transform: scale(1.2);
+        transition: ease-in-out;
+    }
+}
