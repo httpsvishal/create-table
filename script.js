@@ -18,7 +18,7 @@ const handleSubmit = (e) => {
         let row = document.createElement("tr");
         for (let j = 0; j < columns; j++) {
             let column = document.createElement("td");
-            column.style.padding = "25px";
+            
             row.append(column);
         }
         console.log(row);
